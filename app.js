@@ -6,9 +6,9 @@ const app = express();
 app.use(express.json());
 
 const students = [
-  //{ id: 1, name: "Ann", subject: "maths" },
-  //{ id: 2, name: "Bob", subject: "IT" },
-  //{ id: 3, name: "Cloe", subject: "PE" }
+  { id: 1, name: "Ann", subject: "maths" },
+  { id: 2, name: "Bob", subject: "IT" },
+  { id: 3, name: "Cloe", subject: "PE" }
 ];
 
 app.get("/students/", (req, res) => {
